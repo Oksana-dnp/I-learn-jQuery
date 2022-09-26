@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ccs/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+        <!--         Потрібно скопіювати в документ html в тег body нижче вказаний код.
+     З допомогою команд jquery потрібно отримати текстове вмістиме кожного з елементів, які вказані в списку нижче.
+      Отримані текстові значення потрібно об’єднати в стрічку і вивести командою alert().
+
+
+
+👉Список елементів:
+
+Тег span з id ”s1”;
+Тег b з класом ”s2”;
+Тег i, вкладений в блок “second”
+Тег q з вспливаючою підказкою
+Ссилка, яка відкривається в новій вкладці
+Тег span з класом extra, який є другий по послідовності на сторінці. -->
+       
+
+<div id="first">
+    <p>JavaScript, also known as ECMAScript (the un trademarked name used for the standard), is a dynamic
+        <i>p</i>rogramming language. It is most <span>c</span>ommonly used as part of web <b>b</b>rowsers, whose
+        implementations allow client-side scripts to interact with the user, control the browser, communicate
+        asynchronously, and alter <q>t</q>he document <span class="extra">c</span>ontent that is displayed.</p>
+</div> &nbsp;<p></p>
+<p style="line-height: 2;"></p>
+<div id="second">
+    <p></p>
+    <p style="line-height: 2;"><span id="s1">J</span>avaScript (at least the strict subset asm.js) is also considered an
+        "assembly language of the web"(<b class="s2">q</b>uote) – a compile target of source-to-source compilers – for
+        making client side web applications, <i>u</i>sing other programming languag<q title="hello">e</q>s, supported by
+        <a href="#" target="_self">a</a>ll the major browse<a href="#" target="_blank">r</a>s without plug-ins. It is
+        also used in server-side network programming with runtime environments such as Node.js, game development and the
+        creation of desktop and mobile applications. It is most commonl<span class="extra">y</span> used as part of web
+        <b>b</b>rowsers, whose implementations allow client-side scripts to interact with the user</p>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<p></p>
+<hr>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
