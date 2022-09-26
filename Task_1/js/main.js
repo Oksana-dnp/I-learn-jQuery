@@ -9,12 +9,9 @@
        
 
  */
-/* 
-$(document).ready(function(){
-    let message =`$('#s1').text()$('b.s2').text()
-    $('second>i').text()$('q[title])$('a[target="_blank"])$('span.extra:nth-child(2)')`
-    
- 
-}) */
 
-console.log('test', $('span.extra:nth-child(2)').text());
+$(document).ready(function(){
+    let message =$('#s1').text()+$('b.s2').text()+$('second>i').text()+$('q[title]').text()+$('a[target="_blank"]').text()+$('span.extra').eq(1).text();
+    alert(message); 
+}) 
+
